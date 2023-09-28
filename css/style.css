@@ -7,3 +7,35 @@
 .froduct-item button:hover{
  background:#ff5200
 }
+
+
+.banner-section{
+    background-image: url("../img/photo/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.DEALS-OF-THE-DAY{
+    background-image: url("../img/photo/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.how-to-use{
+  
+    background-image: url("../img/photo/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.subscribe-section{
+  
+    background-image: url("../img/photo/bg.png");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+
+
+}

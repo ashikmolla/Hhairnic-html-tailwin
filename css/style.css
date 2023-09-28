@@ -2,18 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
     display: block;
 }
-.froduct-item:hover button{
- background: #90bc79;
+
+.froduct-item:hover button {
+    background: #90bc79;
 }
-.froduct-item button:hover{
- background:#ff5200
+
+.froduct-item button:hover {
+    background: #ff5200
 }
 
 
-.banner-section{
+.banner-section {
     background-image: url("../img/photo/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,38 +24,57 @@
 }
 
 
-.DEALS-OF-THE-DAY{
+.DEALS-OF-THE-DAY {
     background-image: url("../img/photo/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
-.how-to-use{
-  
+
+.how-to-use {
+
     background-image: url("../img/photo/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
-.subscribe-section{
-  
+
+.subscribe-section {
+
     background-image: url("../img/photo/bg.png");
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
 
 
 }
-.our-costomar{
-  
+
+.our-costomar {
+
     background-image: url("../img/photo/bg.png");
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
 
 
 }
-.feature-Start{
-box-shadow: 1px 1px 2px 5px;
+
+.multi-canetion {
+    background-image: url("../img/photo/bg.png");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
 }
-.blog-articles:hover img{
-box-shadow: 1px 1px 5px 5px;
+
+.feature-Start {
+    box-shadow: 1px 1px 2px 5px;
+}
+
+.blog-articles:hover img {
+    box-shadow: 1px 1px 5px 5px;
+}
+
+
+
+/* page animation */
+.about {
+    transition: all ease-in-out;
+    animation-duration: 3s;
 }

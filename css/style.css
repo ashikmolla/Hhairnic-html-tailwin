@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.froduct-item:hover button{
+ background: #90bc79;
+}
+.froduct-item button:hover{
+ background:#ff5200
+}

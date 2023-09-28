@@ -14,7 +14,7 @@
 
 <body class="m-0 p-0">
     <header class="bg-[#90bc79] py-2 sticky top-0 ">
-        <nav class="container mx-auto lg:flex md:inline text-center items-center w-5/6 font-sans font-bold">
+        <nav class="container mx-auto lg:flex md:inline text-center items-center w-5/6 font-sans font-serif">
             <div class="flex-1  ">
                 <a class=" flex items-center gap-1 text-white text-3xl m-auto" href="index.html"><img
                         class="w-16 rounded-full" src="./img/icon/logo.png" alt="img Loding">Hairnic</a>
@@ -22,23 +22,33 @@
             <div class="">
                 <ul class="lg:flex md:flex gap-2 m-auto justify-center items-center">
                     <li
-                        class=" px-3 py-1 text-lime-950 hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
                         <a href="index.html">Home</a>
                     </li>
                     <li
-                        class=" px-3 py-1 text-lime-950 hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
+                        class=" px-3 py-1 text-lime-950 hover:bg-lime-800 text-2xl tracking-tight hover:text-white hover:transition-colors rounded duration-300">
                         <a href="index.html">About</a>
                     </li>
                     <li
-                        class=" px-3 py-1 text-lime-950 hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
                         <a href="index.html">Product</a>
                     </li>
-                    <li
-                        class=" px-3 py-1 text-lime-950 hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
-                        <a href="index.html">Pages</a>
+                    
+                    
+
+                    <li class="py-1 text-lime-950  hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
+
+                        <ul class="dropdown inline relative">
+                            <button class="dropbtn px-5 text-2xl tracking-tight">Pages</button>
+                            <li class="dropdown-content hidden absolute bg-lime-700 rounded mt-0.5 w-[160px] text-start px-1.5 shadow-xl shadow-black" >
+                              <a class="block" href="#">Link 1sadfsdf</a>
+                              <a class="block" href="#">Link 2</a>
+                              <a class="block" href="#">Link 3</a>
+                            </li>
+                        </ul>
                     </li>
                     <li
-                        class=" px-3 py-1 text-lime-950 hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
                         <a href="index.html">Contact</a>
                     </li>
 
@@ -57,7 +67,9 @@
 
 
 
-    <!-- banner section  -->
+    <!---------------
+     banner section 
+    -------------->
 
     <section class=" banner-section bg-[#90bc79] py-16">
         <div class="container mx-auto w-5/6 lg:flex md:inline items-center">
@@ -80,14 +92,16 @@
 
                 </div>
             </div>
-            <div class="my-10 animate-pulse  py-10">
+            <div class="my-10 md:animate-none lg:animate-pulse  py-10">
                 <img class=" " src="./img/photo/shampoo.png" alt="">
             </div>
         </div>
     </section>
 
 
-    <!-- feature Start -->
+    <!------------------
+     feature Start
+    ----------------->
 
     <section class="pt-16 pb-5">
         <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 container width-5/6 p-10 mx-auto ">
@@ -119,11 +133,13 @@
     </section>
 
 
-    <!-- Healthy Hair Is A Symbol Of Our Beauty -->
+    <!------------------
+     Healthy Hair Is A Symbol Of Our Beauty 
+    -------------------->
     <section class="py-16">
         <div class="container mx-auto w-5/6 grid md:grid-cols-1 lg:grid-cols-2 items-center justify-center">
             <div class=" mb-10">
-                <img class="animate-pulse mt-1 hover:animate-none hover:mt-0 transition-all duration-500"
+                <img class="sm:animate-none md:animate-pulse lg:animate-pulse mt-1 hover:animate-none hover:mt-0 transition-all duration-500"
                     src="./img/photo/shampoo-1.png" alt="">
             </div>
             <div class="sm:text-center md:text-center lg:text-start">
@@ -146,11 +162,14 @@
 
 
 
-    <!-- DEALS OF THE DAY SECTION -->
+    <!----------------
+     DEALS OF THE DAY SECTION 
+    ------------------>
+
     <section class="DEALS-OF-THE-DAY py-16 bg-[#90bc79] ">
         <div class="container mx-auto w-5/6 grid md:grid-cols-1 lg:grid-cols-2 items-center justify-center">
             <div class=" mb-10">
-                <img class="animate-pulse mt-1 hover:animate-none hover:mt-0 transition-all duration-500"
+                <img class="sm:animate-none md:animate-none lg:animate-pulse mt-1 hover:animate-none hover:mt-0 transition-all duration-500"
                     src="./img/photo/shampoo-2.png" alt="">
             </div>
             <div class="sm:text-center md:text-center lg:text-start bg-white shadow-md hover:shadow-2xl">
@@ -198,7 +217,9 @@
     </section>
 
 
-    <!-- Best Benefits Of Our Natural Hair Shampoo -->
+    <!--------------
+         Best Benefits Of Our Natural Hair Shampoo
+     ------------------ -->
 
     <section class="py-16">
         <div class="container w-5/6 mx-auto">
@@ -244,7 +265,7 @@
 
 
 
-                <div class="animate-pulse hover:animate-none">
+                <div class="sm:animate-none md:animate-none lg:animate-pulse hover:animate-none">
                     <img src="./img/photo/shampoo 3.png" alt="">
                 </div>
 
@@ -285,7 +306,9 @@
     </section>
 
 
-
+    <!-- -----------
+    How To Use Our Natural & Organic Hair Shampoo
+    ------------------- -->
 
     <section class="how-to-use bg-[#90bc79]   py-16 ">
         <div>
@@ -334,7 +357,9 @@
 
 
 
-    <!-- Our Natural Hair Products -->
+    <!-- -------------
+    Our Natural Hair Products 
+    ------------------->
     <section class="py-16">
         <div class="w-1/2 mx-auto text-center">
             <h1 class="text-4xl"> Our Natura <span class="font-bold text-[#90bc79]">Hair Products </span></h1>
@@ -467,7 +492,9 @@
 
 
 
-    <!-- Our Customer Said About Our Natural Shampoo -->
+    <!---------------------
+         Our Customer Said About Our Natural Shampoo 
+    --------------------->
 
     <section class="our-costomar bg-[#90bc79] py-20">
         <div class="container mx-auto">
@@ -568,7 +595,9 @@
     </section>
 
 
-    <!-- From Our Blog Articles -->
+    <!--------------------
+         From Our Blog Articles 
+    ---------------------->
     <section class="py-16">
         <div class="container mx-auto">
             <div class="w-1/2 mx-auto text-center">
@@ -631,7 +660,9 @@
     </section>
 
 
-    <!-- Let's Subscribe The Newsletter -->
+    <!--------------------
+         Let's Subscribe The Newsletter
+    ------------------------>
     <section class="subscribe-section bg-[#90bc79] ">
         <div class="text-center py-20">
             <h2 class="text-5xl ">Let's Subscribe <span class="font-bold text-white">The Newsletter</span></h2>
@@ -646,50 +677,74 @@
     </section>
 
 
-    <!-- footer section -->
+    <!-----------------
+        footer section
+    ------------------>
     <footer class="bg-black text-white py-28">
-        <div class="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-           
+        <div class="container px-5 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
 
-                <div>
-                    <h2 class="text-6xl font-bold text-[#90bc79] mb-10">Hairnic</h2>
-                    <p class=" text-[#848484] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada
-                        consequat, nibh erat tempus risus, vitae porttitor purus nisl vitae purus.</p>
+
+            <div class="mt-10 px-2 border-[#252525] sm:border-e-0 md:border-e-4 lg:border-e-4 xl:border-e-4">
+                <h2 class="text-6xl font-bold text-[#90bc79] mb-10">Hairnic</h2>
+                <p class=" text-[#848484] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat
+                    non malesuada
+                    consequat, nibh erat tempus risus, vitae porttitor purus nisl vitae purus.</p>
+            </div>
+
+            <div class="mt-10 border-[#252525] sm:border-e-0 md:border-e-0 lg:border-e-4 xl:border-e-4">
+                <h2 class="text-3xl font-bold mb-8 ">Get in touch</h2>
+                <p class="text-[#848484] text-lg"><i class="fa-solid fa-location-dot me-4 "></i>1230 comill burra jolom
+                </p>
+                <p class="text-[#848484] text-lg my-2"><i class="fa-solid fa-phone me-4"></i>01836194129</p>
+                <p class="text-[#848484] text-lg"><i class="fa-solid fa-envelope me-4"></i>ashik018361@gmail.com</p>
+                <div class="mt-6">
+                    <i class="fa-brands fa-twitter border-4 border-[#90bc79] rounded-full p-3 text-4 mx-2"></i>
+                    <i class="fa-brands fa-facebook border-4 border-[#90bc79] rounded-full p-3 text-4 mx-2"></i>
+                    <i class="fa-brands fa-instagram border-4 border-[#90bc79] rounded-full p-3 text-4 mx-2"></i>
+                    <i class="fa-brands fa-linkedin border-4 border-[#90bc79] rounded-full p-3 text-4 mx-2"></i>
+
                 </div>
+            </div>
 
-                <div>
-                    <h2 class="text-3xl font-bold mb-8">Get in touch</h2>
-                    <p class="text-[#848484] text-lg"><i class="fa-solid fa-location-dot me-4 "></i>1230 comill burra jolom</p>
-                    <p class="text-[#848484] text-lg my-2"><i class="fa-solid fa-phone me-4"></i>01836194129</p>
-                    <p class="text-[#848484] text-lg"><i class="fa-solid fa-envelope me-4"></i>ashik018361@gmail.com</p>
-                    <div class="mt-6">
-                        <i class="fa-brands fa-twitter border-4 border-[#90bc79] rounded-full p-3 text-4 mx-2"></i>
-                        <i class="fa-brands fa-facebook border-4 border-[#90bc79] rounded-full p-3 text-4 mx-2"></i>
-                        <i class="fa-brands fa-instagram border-4 border-[#90bc79] rounded-full p-3 text-4 mx-2"></i>
-                        <i class="fa-brands fa-linkedin border-4 border-[#90bc79] rounded-full p-3 text-4 mx-2"></i>
+            <div class="font-semibold mt-10 border-[#252525] sm:border-e-0 md:border-e-4 lg:border-e-4 xl:border-e-4">
+                <h3 class="text-3xl font-bold mb-8">Our Products</h3>
+                <p
+                    class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700">
+                    <i class="fa-solid fa-angle-right me-5"></i>hair shining shampooing</p>
+                <p
+                    class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700">
+                    <i class="fa-solid fa-angle-right me-5"></i>hair shining shampoo</p>
+                <p
+                    class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700">
+                    <i class="fa-solid fa-angle-right me-5"></i>hair shining shampooasdf</p>
+                <p
+                    class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700">
+                    <i class="fa-solid fa-angle-right me-5"></i>hair shining shampoo sf asfa</p>
+                <p
+                    class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700">
+                    <i class="fa-solid fa-angle-right me-5"></i>hair shining shampoo</p>
+            </div>
+            <div class="font-semibold mt-10">
+                <h3 class="text-3xl font-bold mb-8">Profile Link</h3>
+                <p
+                    class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700">
+                    <i class="fa-solid fa-angle-right me-5"></i>Avout Us</p>
+                <p
+                    class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700">
+                    <i class="fa-solid fa-angle-right me-5"></i>Contact Us </p>
+                <p
+                    class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700">
+                    <i class="fa-solid fa-angle-right me-5"></i>Privacy Policy</p>
+                <p
+                    class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700">
+                    <i class="fa-solid fa-angle-right me-5"></i>Terms & Condition</p>
+                <p
+                    class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700">
+                    <i class="fa-solid fa-angle-right me-5"></i>Career</p>
+            </div>
 
-                    </div>
-                </div>
-
-                <div class="font-semibold">
-                    <h3 class="text-3xl font-bold mb-8">Our Products</h3>
-                    <p class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700"><i class="fa-solid fa-angle-right me-5"></i>hair shining shampooing</p>
-                    <p class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700"><i class="fa-solid fa-angle-right me-5"></i>hair shining shampoo</p>
-                    <p class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700"><i class="fa-solid fa-angle-right me-5"></i>hair shining shampooasdf</p>
-                    <p class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700"><i class="fa-solid fa-angle-right me-5"></i>hair shining shampoo sf asfa</p>
-                    <p class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700"><i class="fa-solid fa-angle-right me-5"></i>hair shining shampoo</p>
-                </div>
-                <div class="font-semibold">
-                    <h3 class="text-3xl font-bold mb-8">Profile Link</h3>
-                    <p class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700"><i class="fa-solid fa-angle-right me-5"></i>Avout Us</p>
-                    <p class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700"><i class="fa-solid fa-angle-right me-5"></i>Contact Us </p>
-                    <p class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700"><i class="fa-solid fa-angle-right me-5"></i>Privacy Policy</p>
-                    <p class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700"><i class="fa-solid fa-angle-right me-5"></i>Terms & Condition</p>
-                    <p class="text-[#848484] mb-3 text-lg hover:tracking-widest hover:text-[#90bc79] transition-all duration-700"><i class="fa-solid fa-angle-right me-5"></i>Career</p>
-                </div>
 
 
-           
         </div>
     </footer>
 

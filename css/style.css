@@ -13,7 +13,21 @@
 .froduct-item button:hover {
     background: #ff5200
 }
-
+.dropbtn .up-i{
+    display: none;
+}
+.dropbtn:hover .down-i{
+    display: none;
+}
+.dropbtn:hover .up-i{
+    display: inline;
+}
+.dropdown:hover .down-i{
+    display: none;
+}
+.dropdown:hover .up-i{
+    display: inline;
+}
 
 .banner-section {
     background-image: url("../img/photo/bg.png");

@@ -8,49 +8,56 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="./img/icon/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="../img/icon/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <header class="bg-[#90bc79] py-2 sticky top-0 ">
         <nav class="container mx-auto lg:flex md:inline text-center items-center w-5/6 font-sans font-serif">
             <div class="flex-1  ">
-                <a class=" flex items-center gap-1 text-white text-3xl m-auto" href="index.html"><img
-                        class="w-16 rounded-full" src="./img/icon/logo.png" alt="img Loding">Hairnic</a>
+                <a class=" flex items-center gap-1 text-white text-3xl m-auto" href="../index.html"><img
+                        class="w-16 rounded-full" src="../img/icon/logo.png" alt="img Loding">Hairnic</a>
             </div>
             <div class="">
                 <ul class="lg:flex md:flex gap-2 m-auto justify-center items-center">
                     <li
-                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
-                        <a href="index.html">Home</a>
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
+                        <a href="../index.html">Home</a>
                     </li>
                     <li
-                        class=" px-3 py-1 text-lime-950 hover:bg-lime-800 text-2xl tracking-tight hover:text-white hover:transition-colors rounded duration-300">
-                        <a href="index.html">About</a>
+                        class=" px-3 py-1 text-lime-950 hover:bg-lime-800 text-2xl tracking-tight decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
+                        <a href="about.html">About</a>
                     </li>
                     <li
-                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
                         <a href="./product.html">Product</a>
                     </li>
 
 
 
                     <li
-                        class="py-1 text-lime-950  hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
+                        class="py-1 text-lime-950  hover:bg-lime-800 decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000 ">
 
                         <ul class="dropdown inline relative">
-                            <button class="dropbtn px-5 text-2xl tracking-tight">Pages</button>
+
+
+                            <button class="dropbtn px-5 text-2xl tracking-tight">
+                                Pages <i class="fa-solid fa-angle-down text-white down-i"></i>
+                                <i class="fa-solid fa-angle-up text-white up-i"></i>
+                            </button>
+
+
                             <li
-                                class="dropdown-content hidden absolute bg-lime-700 rounded mt-0.5 w-[160px] text-start px-1.5 shadow-xl shadow-black">
-                                <a class="block" href="#">Link 1sadfsdf</a>
-                                <a class="block" href="#">Link 2</a>
-                                <a class="block" href="#">Link 3</a>
+                                class="dropdown-content p-0 hidden absolute bg-white text-black rounded mt-0 w-[160px] text-start px-1.5 shadow-xl shadow-black transition-all duration-1000">
+                                <a class="block hover:text-[#ff5200] hover:tracking-wider m-0 transition-all duration-500"
+                                    href="#">Link 1sadfsdf</a>
+
                             </li>
                         </ul>
                     </li>
                     <li
-                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
                         <a href="contact.html">Contact</a>
                     </li>
 
@@ -59,7 +66,7 @@
 
 
                     <button class="ease-in-out duration-300 bg-lime-950 px-4 py-2 items-center text-white rounded"><a
-                            href="index.html">Shop Now</a></button>
+                            href="../index.html">Shop Now</a></button>
                 </ul>
             </div>
 
@@ -68,11 +75,11 @@
     <!-- custom this section in "About "page -->
     <section class="about multi-canetion bg-[#90bc79] py-28 ">
         <div class="about container mx-auto text-center">
-            <h2 class="text-8xl font-bold text-white my-8">About Us</h2>
+            <h2 class="text-8xl font-bold text-white my-8">Contact Us</h2>
             <p class=" text-white text-xl mb-5">
-                <a href="">Home </a> /
-                <a href=""> Abput</a> /
-                <a href=""> Page </a> /
+                <a href="#">Home </a> /
+                <a href="#"> contact</a> /
+                <a href="#"> Page </a> /
             </p>
         </div>
     </section>
@@ -92,23 +99,27 @@
     <section class="pt-16 pb-5">
         <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 container width-5/6 p-10 mx-auto ">
             <div class="feature-Start bg-[#90bc79] p-4 hover:shadow-2xl transition-all duration-300">
-                <div class="border-4 px-28 py-16 text-center">
-                    <img class="w-10 mx-auto" src="./img/icon/patha.svg" alt="">
-                    <p class="text-white text-xl ">100% Natural</p>
+                <div class="border-4 border-neutral-300 py-16 text-center">
+                    <i class="fa-solid fa-location-dot text-6xl"></i>
+                    <h3 class="text-2xl font-bold text-white">Office Address </h3>
+                    <p class="text-white text-2xl">1230 bangladesh, comilla</p>
                 </div>
             </div>
-            <div class="feature-Start bg-[#90bc79] p-4  hover:shadow-2xl transition-all duration-300 ">
-                <div class="border-4 px-28 py-16 text-center">
-                    <img class="w-10 mx-auto" src="./img/icon/patha.svg" alt="">
-                    <p class="text-white text-xl ">100% Natural</p>
+            <div class="feature-Start bg-[#90bc79] p-4 hover:shadow-2xl transition-all duration-300">
+                <div class="border-4 border-neutral-300 py-16 text-center">
+                    <i class="fa-solid fa-phone text-6xl"></i>
+                    <h3 class="text-2xl font-bold text-white">Call Us </h3>
+                    <p class="text-white text-2xl">01836194129</p>
                 </div>
             </div>
-            <div class="feature-Start bg-[#90bc79] p-4 hover:shadow-2xl transition-all duration-300 ">
-                <div class="border-4 px-28 py-16 text-center">
-                    <img class="w-10 mx-auto" src="./img/icon/xmark-solid.svg" alt="">
-                    <p class="text-white text-xl ">100% Natural</p>
+            <div class="feature-Start bg-[#90bc79] p-4 hover:shadow-2xl transition-all duration-300">
+                <div class="border-4 border-neutral-300 py-16 text-center">
+                    <i class="fa-solid fa-envelope text-6xl"></i>
+                    <h3 class="text-2xl font-bold text-white">Email Us </h3>
+                    <p class="text-white text-2xl">1230 bangladesh, comilla</p>
                 </div>
             </div>
+
 
 
 
@@ -118,31 +129,51 @@
 
     </section>
 
-    <!------------------
-     Healthy Hair Is A Symbol Of Our Beauty 
-    -------------------->
-    <section class="py-16">
-        <div class="container mx-auto w-5/6 grid md:grid-cols-1 lg:grid-cols-2 items-center justify-center">
-            <div class=" mb-10">
-                <img class="sm:animate-none md:animate-pulse lg:animate-pulse mt-1 hover:animate-none hover:mt-0 transition-all duration-500"
-                    src="./img/photo/shampoo-1.png" alt="">
+
+
+
+    <!-- location section -->
+    <section class="py-20">
+        <div class="container w-5/6 mx-auto">
+            <div class="w-1/2 mx-auto text-center">
+                <h1 class="text-4xl">Best Benefits Of Our <span class="font-bold text-[#90bc79]">Natural Hair
+                        Shampoo</span></h1>
+
             </div>
-            <div class="sm:text-center md:text-center lg:text-start">
-                <h2 class="text-4xl font-bold"><span class="text-[#528e31] text-5xl">Healthy Hair</span> Is A Symbol Of
-                    Our Beauty</h2>
-                <p class="my-5 text-slate-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet,
-                    erat non malesuada consequat,
-                    nibh erat tempus risus, vitae porttitor purus nisl vitae purus. Praesent tristique odio ut rutrum
-                    pellentesque. Fusce eget molestie est, at rutrum est.</p>
-                <p class="text-slate-600">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet
-                    no labore lorem sit.
-                    Sanctus clita duo justo et tempor.</p>
-                <button class="mt-5 bg-[#90bc79] hover:bg-[#9dcb85] px-6 py-2 text-xl text-white rounded"><a
-                        href="./index.html"></a>Shop Now</button>
+            <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-5 gap-4 my-10">
+                <div>
+                    <p class="text-slate-600 text-lg p-2">
+                        The contact form is currently inactive. Get a functional and working contact form with Ajax &
+                        PHP in a few minutes. and paste the files, add a little code and you're done. <span
+                            class="hover:text-green-600 cursor-pointer">Download Now.</span>
+                    </p>
+                    <div class="">
+                        <input class="py-4 mb-2 border px-4 text-3xl focus:none w-1/2 w-full" type="text"
+                            placeholder=" Enter First Name">
+                        <input class="py-4 mb-2 border px-4 text-3xl focus:none w-1/2 w-full" type="email"
+                            placeholder="Enter Last Name">
+                        <input class="py-4 mb-2 border px-4 text-3xl focus:none w-full" type="text"
+                            placeholder="Enter Your Email addres">
+                        <textarea class="py-4 mb-2 border px-4 text-3xl focus:none w-full h-[150px] " name="comment"
+                            form="usrform" placeholder="Message"></textarea>
+                        <button class="w-full bg-[#90bc79] text-3xl  hover:bg-[#7aa763] text-white font-bold cursor-pointer transition-colors duration-500 rounded"><a class=" py-2 block" href="contact.html">Send Message</a></button>
+                        
+                    </div>
+                </div>
+
+                <div class="contact-map pt-10 ps-10">
+                    <iframe class="map w-full h-full"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.612137065404!2d91.13126721420429!3d23.438374206542807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547d9a34283e51%3A0xe581c162716c2cc6!2sRed%20Onion%20Hotel%20And%20Restaurant!5e0!3m2!1sen!2sbd!4v1630060501205!5m2!1sen!2sbd"
+                        style="border:0;" allowfullscreen="" loading="lazy">
+
+
+
+                    </iframe>
+
+                </div>
             </div>
         </div>
     </section>
-
 
     <!--------------------
          Let's Subscribe The Newsletter

@@ -8,49 +8,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="./img/icon/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="../img/icon/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <header class="bg-[#90bc79] py-2 sticky top-0 ">
         <nav class="container mx-auto lg:flex md:inline text-center items-center w-5/6 font-sans font-serif">
             <div class="flex-1  ">
-                <a class=" flex items-center gap-1 text-white text-3xl m-auto" href="index.html"><img
-                        class="w-16 rounded-full" src="./img/icon/logo.png" alt="img Loding">Hairnic</a>
+                <a class=" flex items-center gap-1 text-white text-3xl m-auto" href="../index.html"><img
+                        class="w-16 rounded-full" src="../img/icon/logo.png" alt="img Loding">Hairnic</a>
             </div>
             <div class="">
                 <ul class="lg:flex md:flex gap-2 m-auto justify-center items-center">
                     <li
-                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
-                        <a href="index.html">Home</a>
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
+                        <a href="../index.html">Home</a>
                     </li>
                     <li
-                        class=" px-3 py-1 text-lime-950 hover:bg-lime-800 text-2xl tracking-tight hover:text-white hover:transition-colors rounded duration-300">
+                        class=" px-3 py-1 text-lime-950 hover:bg-lime-800 text-2xl tracking-tight decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
                         <a href="about.html">About</a>
                     </li>
                     <li
-                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
                         <a href="index.html">Product</a>
                     </li>
 
 
 
                     <li
-                        class="py-1 text-lime-950  hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
+                        class="py-1 text-lime-950  hover:bg-lime-800 decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
 
                         <ul class="dropdown inline relative">
-                            <button class="dropbtn px-5 text-2xl tracking-tight">Pages</button>
-                            <li
-                                class="dropdown-content hidden absolute bg-lime-700 rounded mt-0.5 w-[160px] text-start px-1.5 shadow-xl shadow-black">
-                                <a class="block" href="#">Link 1sadfsdf</a>
-                                <a class="block" href="#">Link 2</a>
-                                <a class="block" href="#">Link 3</a>
+
+
+                            <button class="dropbtn px-5 text-2xl tracking-tight">
+                                Pages <i class="fa-solid fa-angle-down text-white down-i"></i>
+                                <i class="fa-solid fa-angle-up text-white up-i"></i>
+                            </button>
+                          
+                          
+                            <li class="dropdown-content p-0 hidden absolute bg-white text-black rounded mt-0 w-[160px] text-start px-1.5 shadow-xl shadow-black transition-all duration-1000" >
+                              <a class="block hover:text-[#ff5200] hover:tracking-wider m-0 transition-all duration-500" href="#">Link 1sadfsdf</a>
+                              
                             </li>
                         </ul>
                     </li>
                     <li
-                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
                         <a href="contact.html">Contact</a>
                     </li>
 
@@ -59,7 +64,7 @@
 
 
                     <button class="ease-in-out duration-300 bg-lime-950 px-4 py-2 items-center text-white rounded"><a
-                            href="index.html">Shop Now</a></button>
+                            href="../index.html">Shop Now</a></button>
                 </ul>
             </div>
 
@@ -70,9 +75,9 @@
         <div class="container mx-auto text-center">
             <h2 class="text-8xl font-bold text-white my-8">Products</h2>
             <p class=" text-white text-xl mb-5">
-                <a href="">Home </a> /
-                <a href=""> Abput</a> /
-                <a href=""> Page </a> /
+                <a href="../index.html">Home </a> /
+                <a href="#"> Products</a> /
+                <a href="#"> Page </a> /
             </p>
         </div>
     </section>
@@ -101,7 +106,7 @@
 
             <div
                 class="froduct-item border-4 py-4 px-1 text-center hover:shadow-2xl hover:btn:bg-[#90bc79] mt-1 hover:mt-0 transition-all duration-500 ">
-                <img src="./img/photo/shampoo-1.png" alt="">
+                <img src="../img/photo/shampoo-1.png" alt="">
                 <div class="text-red-500 my-4">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -118,7 +123,7 @@
 
             <div
                 class="froduct-item border-4 py-4 px-1 text-center hover:shadow-2xl hover:btn:bg-[#90bc79] mt-1 hover:mt-0 transition-all duration-500 ">
-                <img src="./img/photo/shampoo-1.png" alt="">
+                <img src="../img/photo/shampoo-1.png" alt="">
                 <div class="text-red-500 my-4">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -133,7 +138,7 @@
             </div>
             <div
                 class="froduct-item border-4 py-4 px-1 text-center hover:shadow-2xl hover:btn:bg-[#90bc79] mt-1 hover:mt-0 transition-all duration-500 ">
-                <img src="./img/photo/shampoo-1.png" alt="">
+                <img src="../img/photo/shampoo-1.png" alt="">
                 <div class="text-red-500 my-4">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -148,7 +153,7 @@
             </div>
             <div
                 class="froduct-item border-4 py-4 px-1 text-center hover:shadow-2xl hover:btn:bg-[#90bc79] mt-1 hover:mt-0 transition-all duration-500 ">
-                <img src="./img/photo/shampoo-1.png" alt="">
+                <img src="../img/photo/shampoo-1.png" alt="">
                 <div class="text-red-500 my-4">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -163,7 +168,7 @@
             </div>
             <div
                 class="froduct-item border-4 py-4 px-1 text-center hover:shadow-2xl hover:btn:bg-[#90bc79] mt-1 hover:mt-0 transition-all duration-500 ">
-                <img src="./img/photo/shampoo-1.png" alt="">
+                <img src="../img/photo/shampoo-1.png" alt="">
                 <div class="text-red-500 my-4">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -178,7 +183,7 @@
             </div>
             <div
                 class="froduct-item border-4 py-4 px-1 text-center hover:shadow-2xl hover:btn:bg-[#90bc79] mt-1 hover:mt-0 transition-all duration-500 ">
-                <img src="./img/photo/shampoo-1.png" alt="">
+                <img src="../img/photo/shampoo-1.png" alt="">
                 <div class="text-red-500 my-4">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -193,7 +198,7 @@
             </div>
             <div
                 class="froduct-item border-4 py-4 px-1 text-center hover:shadow-2xl hover:btn:bg-[#90bc79] mt-1 hover:mt-0 transition-all duration-500 ">
-                <img src="./img/photo/shampoo-1.png" alt="">
+                <img src="../img/photo/shampoo-1.png" alt="">
                 <div class="text-red-500 my-4">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
